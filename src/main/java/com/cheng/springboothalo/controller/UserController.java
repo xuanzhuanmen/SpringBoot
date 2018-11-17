@@ -18,4 +18,9 @@ public class UserController {
     public void addUser(int i) {
 
     }
+
+    @RequestMapping("/deleteUser")
+    public void deleteUser() {
+
+    }
 }
