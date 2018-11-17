@@ -10,4 +10,9 @@ public class JumpController {
     public String jump2Douban() {
         return "redirect:https://www.douban.com/";
     }
+
+    @RequestMapping("/jump2Xueqiu")
+    public String jump2Xueqiu() {
+        return "redirect:https://www.xueqiu.com";
+    }
 }
