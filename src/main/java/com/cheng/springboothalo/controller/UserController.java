@@ -13,4 +13,9 @@ public class UserController {
     public String getUserName() {
         return "Halo Stranger!";
     }
+
+    @RequestMapping("/addUser")
+    public void addUser(int i) {
+
+    }
 }
